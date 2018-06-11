@@ -4,11 +4,15 @@ spring:
 
 
 ---
+server:
+    port: 4042
 spring:
   profiles: dev
   application:
     name: config-client-dev
 ---
+server:
+    port: 4041
 spring:
   profiles: test
   application:
